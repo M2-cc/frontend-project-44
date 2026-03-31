@@ -3,7 +3,9 @@
     "version": "1.0.0",
     "main": "index.js",
     "bin": {
-        "brain-games": "bin/brain-games.js"
+        "brain-games": "bin/brain-games.js",
+        "brain-even": "bin/brain-even.js",
+        "brain-calc": "bin/brain-calc.js"
     },
     "type": "module",
     "scripts": {
@@ -17,6 +19,7 @@
         "readline-sync": "^1.4.10"
     },
     "devDependencies": {
+        "@eslint/create-config": "^1.11.0",
         "@eslint/js": "^9.39.4",
         "@stylistic/eslint-plugin": "^5.10.0",
         "eslint": "^9.39.4",
