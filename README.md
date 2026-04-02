@@ -12,3 +12,16 @@
  https://asciinema.org/a/gTfZU1nx3CrkMF0A
  https://asciinema.org/connect/3585b1ef-a5be-47f0-85b6-3d1aa118a589.svg
  
+ # Игра: Нод (brain-gcd)
+
+ https://asciinema.org/a/C4o7vhvnTooLrerX
+ https://asciinema.org/connect/3585b1ef-a5be-47f0-85b6-3d1aa118a589.svg
+
+ # Игра: Апифметическая прогресия
+
+  https://asciinema.org/a/j0qtCy6rtht0mo6i
+  https://asciinema.org/connect/3585b1ef-a5be-47f0-85b6-3d1aa118a589.svg
+
+ # Игра: "Простое ли число?"
+
+ 

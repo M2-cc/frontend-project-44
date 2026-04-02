@@ -1,5 +1,6 @@
 import runEngine from '../index.js';
 
+
 const description = 'Find the greatest common divisor of given numbers.';
 
 const getGcd = (a, b) => (b === 0 ? a : getGcd(b, a % b));
@@ -13,4 +14,7 @@ const getRoundData = () => {
   return [question, correctAnswer];
 };
 
-export default () => runEngine(description, getRoundData);
+const runGcdGame = () => runEngine(description, getRoundData);
+
+export default runGcdGame;
+
