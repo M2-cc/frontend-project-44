@@ -1,30 +1,30 @@
-import runEngine from '../index.js';
+import runEngine from '../index.js'
 
-const description = 'What number is missing in the progression?';
+const description = 'What number is missing in the progression?'
 
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
 
 const generateProgression = (start, step, length) => {
-  const progression = [];
+  const progression = []
   for (let i = 0; i < length; i += 1) {
-    progression.push(start + step * i);
+    progression.push(start + step * i)
   }
-  return progression;
-};
+  return progression
+}
 
 const getRoundData = () => {
-  const start = getRandomInt(1, 50);
-  const step = getRandomInt(1, 10);
-  const length = getRandomInt(5, 10);
-  const hiddenIndex = getRandomInt(0, length - 1);
+  const start = getRandomInt(1, 50)
+  const step = getRandomInt(1, 10)
+  const length = getRandomInt(5, 10)
+  const hiddenIndex = getRandomInt(0, length - 1)
 
-  const progression = generateProgression(start, step, length);
-  const correctAnswer = String(progression[hiddenIndex]);
-  
-  progression[hiddenIndex] = '..';
-  const question = progression.join(' ');
+  const progression = generateProgression(start, step, length)
+  const correctAnswer = String(progression[hiddenIndex])
 
-  return [question, correctAnswer];
-};
+  progression[hiddenIndex] = '..'
+  const question = progression.join(' ')
 
-export default () => runEngine(description, getRoundData);
+  return [question, correctAnswer]
+}
+
+export default () => runEngine(description, getRoundData)
