@@ -17,11 +17,14 @@
  https://asciinema.org/a/C4o7vhvnTooLrerX
  https://asciinema.org/connect/3585b1ef-a5be-47f0-85b6-3d1aa118a589.svg
 
- # Игра: Апифметическая прогресия
+ # Игра: Апифметическая прогресия (brain-progresasion)
 
   https://asciinema.org/a/j0qtCy6rtht0mo6i
   https://asciinema.org/connect/3585b1ef-a5be-47f0-85b6-3d1aa118a589.svg
 
- # Игра: "Простое ли число?"
+ # Игра: "Простое ли число?" (brain-prime)
+ https://asciinema.org/a/DFu6n6At7Xar5c6A
+ https://asciinema.org/connect/3585b1ef-a5be-47f0-85b6-3d1aa118a589.svg
+ 
 
  
